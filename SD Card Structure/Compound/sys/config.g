@@ -77,3 +77,5 @@ M586 P2 S0 ; Disable Telnet
 ; --- SECTION: MISCELLANEOUS --- 
 
 M572 D0:1 S0.07 ; Extruder Pressure Advance 
+
+M501 ; Read stored parameters (adds *a system generated* sys/config-override.g **DO NOT EDIT THIS**) allows user to make changes, such as M303 H1 S240 (PID tune hot end) and, then sending M500 to save new parameters which will then be read as the last line of the config.g overriding parameters when and if necessary.
